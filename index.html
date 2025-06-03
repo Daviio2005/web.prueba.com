@@ -1,47 +1,51 @@
-<!DOCTYPE html>
-<html lang="en">
+    <!DOCTYPE html>
+    <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
-    <script src="script.js"></script>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    </head>
 
-<body>
-    <header>
-        <div class="logo">
-            <h1>LOGO</h1>
-        </div>
-        <button class="menu-toggle" id="menu-toggle">&#9776;</button>
-        <nav class="navbar" id="navbar">
-            <ul class="nav-list">
-                <li><a href="#" onclick="mostrarSeccion('inicio')">Inicio</a></li>
-                <li><a href="#" onclick="mostrarSeccion('productos')">Productos</a></li>
-                <li><a href="#" onclick="mostrarSeccion('ayuda')">Ayuda</a></li>
-                <li><a href="#" onclick="mostrarSeccion('nosotros')">Nosotros</a></li>
-            </ul>
-        </nav>
-        <div class="spacer"></div>
-    </header>
+    <body>
+        <header>
+            <div class="logo">
+                <h1>LOGO</h1>
+            </div>
+            <button class="menu-toggle" id="menu-toggle">&#9776;</button>
+            <nav class="navbar" id="navbar">
+                <ul class="nav-list">
+                    <li><a href="#" onclick="mostrarSeccion('inicio')">Inicio</a></li>
+                    <li><a href="#" onclick="mostrarSeccion('productos')">Productos</a></li>
+                    <li><a href="#" onclick="mostrarSeccion('ayuda')">Ayuda</a></li>
+                    <li><a href="#" onclick="mostrarSeccion('nosotros')">Nosotros</a></li>
+                </ul>
+            </nav>
+            <div class="spacer">
+                <input type="text" placeholder="Buscar..." class="search-input">
+                <i class="fa fa-magnifying-glass" id="search-icon"></i>
+            </div>
+        </header>
 
-    <section class="section" id="inicio" style="display: block;">
-        <h1>Inicio</h1>
-    </section>
+        <section class="section" id="inicio" style="display: block;">
+            <h1>Inicio</h1>
+        </section>
 
-    <section class="section" id="productos" style="display: none;">
-        <h1>Productos</h1>
-    </section>
+        <section class="section" id="productos" style="display: none;">
+            <h1>Productos</h1>
+        </section>
 
-    <section class="section" id="ayuda" style="display: none;">
-        <h1>Ayuda</h1>
-    </section>
+        <section class="section" id="ayuda" style="display: none;">
+            <h1>Ayuda</h1>
+        </section>
 
-    <section class="section" id="nosotros" style="display: none;">
-        <h1>Nosotros</h1>
-    </section>
+        <section class="section" id="nosotros" style="display: none;">
+            <h1>Nosotros</h1>
+        </section>
 
-</body>
+    </body>
 
-</html>
+    </html>
